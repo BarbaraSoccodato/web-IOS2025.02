@@ -1,0 +1,21 @@
+body{
+    background-image: url(https://m.media-amazon.com/images/I/51XISp6ViuL._AC_UF894,1000_QL80_.jpg);
+    background-size: cover;
+}
+
+
+#Red{
+    color: red;
+}
+
+#Green{
+    color: green;
+}
+
+#Blue{
+    color: rgb(3, 177, 252);
+}
+
+#titulo{
+    color: rgb(90, 25, 255);
+}
