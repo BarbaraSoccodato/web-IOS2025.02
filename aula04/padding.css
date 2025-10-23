@@ -1,0 +1,47 @@
+h1{
+    background-color: rgb(125, 192, 204);
+    /*margin é o espaço de fora de um elemento, e é oque faz com que esse elemento se afaste dos outros */
+    margin: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.quadrado{
+    width: 200px;
+    height: 200px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtNgB88fv90gli8-hGN_BoLc_Dcv-1w17h1tn4eS7cF6443R0BtfGc7oqP4l9RLAGBQYY&usqp=CAU);
+    background-repeat: no-repeat;
+    border: 10px solid rgb(125, 192, 204);
+    /*Podemos colocar a margin apenas em um lado especifico utilizando os comandos de margin:
+    margin-top (em cima)
+    margin-right (margem a direita)
+    margin-bottom (margem á baixo)
+    margi-left (margem á esquerda)*/
+    margin-left: 20px;
+    
+}
+
+h1{
+    text-align: center;
+   padding-left: 100px;
+   padding-bottom: 20px;
+}
+
+#milho{
+    font-size: large;
+    text-align: center;
+    background-color: rgb(125, 192, 204);
+    margin: 10px;
+}
+
+#segunda{
+    padding: 25px;
+    padding-right: 70px;
+    
+}
+
+/*PADDING: é o espaço interno que separa o conteúdo da borda */
+/*MARGIN: é o espaço externo que separa os conteúdo (caixas) */

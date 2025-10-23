@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    /*border width determina o tamanho da borda*/
+    border-width: 10px;
+    /*border-color determina a cor da cor da borda*/
+    border-color: rgb(170, 162, 162);
+    /*border-style determina o formato da borda*/
+    border-style: groove;
+
+    text-align: center;
+}
+/*Podemos criar bordas de maneiras abreviadas utilizando aoenas as propriedades border. Border recebe 3 valores sendo eles: tamanho(10px) tipo(double) cor(black.*/
+p{
+    border: rgb(185, 185, 185) double 10px;
+}
