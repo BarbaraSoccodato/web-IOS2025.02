@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+}
+
+#container{
+    background-color: white;
+    display: flex;
+    justify-content: space-between
+}
+
+.quadrado{
+    height: 200px;
+    width: 200px;
+    background-color:rgb(0, 183, 255);
+    border: 1px black;
+    
+}
+

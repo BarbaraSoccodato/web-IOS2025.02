@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+}
+
+.quadrado {
+    height: 100px;
+    width: 100px;
+    background-color: darkorchid;
+    border: 1px solid black;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+#container {
+    background-color: black;
+    display: flex;
+    flex-direction: column; /* Adicionando direção de coluna */
+    align-items: center; /* Centraliza as imagens */
+    height: 600px;
+}
+
+h2 {
+    color: white;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+    object-fit: contain;
+    margin-bottom: 20px;  /* Espaço entre as imagens */
+}
+
+button {
+    height: 400px;
+    width: 200px;
+}
