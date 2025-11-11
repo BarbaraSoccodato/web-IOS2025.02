@@ -1,0 +1,73 @@
+:root {
+    --corPrincipal: yellow;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: #222;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-top: 50px;
+}
+
+/* Quadrado */
+.quadrado {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(135deg, red, orange);
+    transition: all 0.8s ease;
+}
+
+.quadrado:hover {
+    transform: rotate(360deg);
+    background: linear-gradient(135deg, blue, purple);
+}
+
+/* Círculo */
+.circulo {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(135deg, green, lime);
+    border-radius: 50%;
+    margin-top: 30px;
+    transition: all 0.8s ease;
+}
+
+.circulo:hover {
+    transform: scale(1.2);
+    background: linear-gradient(135deg, cyan, teal);
+}
+
+/* Textos */
+h1 {
+    color: var(--corPrincipal);
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+p {
+    color: aqua;
+    font-size: 24px;
+}
+
+a:link {
+    color: violet;
+    font-size: 30px;
+    margin-top: 10px;
+    display: block;
+}
+
+#shrek::first-letter {
+    font-size: 50px;
+    color:aqua;
+    font-weight: bold;
+}
